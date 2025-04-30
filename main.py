@@ -46,7 +46,7 @@ class URLChecker:
 
             # Check if status code indicates success (2xx range)
             if 200 <= response.status_code < 300:
-                logger.info(f"SUCESS - Status {response.status_code} - URL: {url}")
+                logger.info(f"SUCCESS - Status {response.status_code} - URL: {url}")
                 return True
             else:
                 logger.warning(f"FAILURE - Status {response.status_code} - URL: {url}")
