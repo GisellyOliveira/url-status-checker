@@ -81,7 +81,10 @@ The summary will be displayed on the screen, and the details in the log file.
 
 ### 4. Using Pipe
 You can pipe the output of another command that lists URLs directly into the script:
-```cat my_urls.txt | python main.py```
+
+```
+cat my_urls.txt | python main.py
+```
 
 The summary will be displayed on the screen, and the full details will be logged in the site_checker.log file.
 
@@ -114,7 +117,7 @@ The -v (verbose) flag shows details about each test executed. You should see all
 * Better handling of HTTP redirects (option --follow-redirects).
 
 ## 📄 License
-This project is licensed under the MIT License. See the LICENSE file (if it exists) for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 👤 Contact
 Created by *Giselly Oliveira* - **Email:** *gioliveira@protonmail.com*
